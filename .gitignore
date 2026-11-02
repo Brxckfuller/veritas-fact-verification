@@ -1,0 +1,28 @@
+# Python environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# IDE and macOS
+.idea/
+.DS_Store
+.ipynb_checkpoints/
+
+# Datasets
+data/raw/
+data/processed/
+
+# Trained models and checkpoints
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Experiment outputs
+results/
+
+# Environment variables
+.env
+.env.*
